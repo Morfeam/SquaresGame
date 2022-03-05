@@ -1,0 +1,33 @@
+#BlueJ class context
+comment0.target=Rectangle
+comment1.params=cl
+comment1.target=Rectangle(int)
+comment1.text=\r\n\ Default\ Constructor\ for\ objects\ of\ class\ Ball\r\n
+comment10.params=B
+comment10.target=boolean\ ballCollision(Ball)
+comment11.params=R
+comment11.target=boolean\ rectCollision(Rectangle)
+comment12.params=
+comment12.target=void\ drawRect()
+comment12.text=\r\n\ \ \ \ public\ void\ changeDirection()\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ moveX\ \=\ moveX*-1;\r\n\ \ \ \ \ \ \ \ moveY\ \=\ moveY*-1;\r\n}
+comment13.params=gr
+comment13.target=void\ paint(java.awt.Graphics)
+comment2.params=rX\ rY\ w\ h\ mY\ mX
+comment2.target=Rectangle(int,\ int,\ int,\ int,\ int,\ int)
+comment3.params=
+comment3.target=int\ getWidth()
+comment3.text=\r\n\ getMethods\r\n
+comment4.params=
+comment4.target=int\ getHeight()
+comment5.params=
+comment5.target=int\ getX()
+comment6.params=
+comment6.target=int\ getY()
+comment7.params=
+comment7.target=int\ getRight()
+comment8.params=
+comment8.target=int\ getBottom()
+comment9.params=cl
+comment9.target=void\ setColor(int)
+comment9.text=public\ void\ moveRectangle(int\ w,\ int\ h)\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ x\ \=\ x\ +\ moveX;\r\n\ \ \ \ \ \ \ \ y\ \=\ y\ +\ moveY;\r\n\ \ \ \ \ \ \ \ if(x+diameter\ >\=\ w\ ||\ x\ <\=\ 0)\r\n\ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ moveX\ \=\ moveX*-1;\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ if(y+\ diameter\ >\=\ h\ ||\ y\ <\=\ 0)\r\n\ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ moveY\ \=\ moveY*-1;\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ update();\r\n\ \ \ \ }\r\n\ \ \ \ public\ void\ update()\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ centerX\ \=\ x\ +\ radius;\r\n\ \ \ \ \ \ \ \ centerY\ \=\ y\ +\ radius;\r\n}
+numComments=14
